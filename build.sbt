@@ -12,7 +12,7 @@ lazy val root = (project in file("."))
     organization := "Andrey Atapin",
     name := "song-link-bot",
     version := "0.0.1",
-    scalaVersion := "2.13.0",
+    scalaVersion := "2.12.9",
     maxErrors := 3,
     libraryDependencies ++= Seq(
       "dev.zio"    %% "zio"               % ZioVersion,
