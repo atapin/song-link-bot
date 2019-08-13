@@ -24,6 +24,10 @@ lazy val root = (project in file("."))
       "org.http4s"      %% "http4s-circe"        % Http4sVersion,
       "org.http4s"      %% "http4s-dsl"          % Http4sVersion,
       "io.circe"        %% "circe-generic"       % CirceVersion,
+
+      "eu.timepit"      %% "refined"             % "0.9.9",
+      "eu.timepit"      %% "refined-cats"        % "0.9.9",
+
       "org.specs2" %% "specs2-core"       % Specs2Version % "test"
     )
   ) 
